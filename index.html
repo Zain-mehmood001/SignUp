@@ -8,6 +8,62 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="img-container">
+            <img src="./assets/leaf.jpg" class="leaf">
+        </div>
+        <div class="form-container">
+            <!--for stuff on right-->
+            <div class="copy-text">
+                <strong>This is not a real online service!
+                    You know you need something like this in your
+                    life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started.
+                    <br><br>
+                    You <em>know</em> you want to.
+                </strong>
+            </div>
+            <div class="formbg">
+            <div class="form">
+                <form action="#" method="post">
+                    <fieldset>
+                        <h2>Let's do this!</h2>
+                        <ul>
+                            <li>
+                                <label for="first_name">FIRST NAME</label><br>
+                                <input type="text" id="first_name" name="user_f_name" minlength="3" maxlength="15">
+                            </li>
+                            <li>
+                                <label for="last_name">LAST NAME</label><br>
+                                <input type="text" id="last_name" name="user_l_name" minlength="3" maxlength="15">
+                            </li>
+                            <li>
+                                <label for="email">EMAIL</label><br>
+                                <input type="email" id="email" name="user_email">
+                            </li>
+                            <li>
+                                <label for="phnnum">PHONE NUMBER</label><br>
+                                <input type="tel" id="phnnum" name="user_phone">
+                            </li>
+                            <li>
+                                <label for="pwd">PASSWORD</label><br>
+                                <input type="password" id="pwd" name="user_pass">
+                            </li>
+                            <li>
+                                <label for="confirmpwd">CONFIRM PASSWORD</label><br>
+                                <input type="password" id="confirmpwd" name="user_pass2">
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div>
+            </div>
+            <div class="lowersection">
+                <button>Create Account</button>
+                <p>Already have an account? <a href="#"> Log in </a>
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

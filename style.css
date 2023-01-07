@@ -1,0 +1,48 @@
+:root, body{
+    margin: 0px;
+    padding: 0px;
+    --create-account: #596D48;
+    --input-border: #E5E7EB;
+    --main-bg: #FAF9FC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    display: flex;
+    height: 120vh;
+}
+.img-container{
+    flex: 1;
+    display: flex;
+}
+leaf{
+    flex: 1;
+}
+.form-container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--main-bg);
+    flex: 1.618;
+}
+
+.formbg{
+    background-color: aliceblue;
+}
+
+.copy-text{
+    width: 75%;
+    font-size: larger;
+}
+
+.form ul{
+    list-style: none;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form li{
+    flex: 50%;
+}
